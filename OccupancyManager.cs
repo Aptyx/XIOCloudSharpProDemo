@@ -7,11 +7,11 @@ namespace AptyxXIOCloudSSharpDemo;
 internal class OccupancyManager
 {
     private readonly XioCloudRoomSlot _xioCloudRoom;
-    private readonly Lab1 _lab1;
+    private readonly ILab1 _lab1;
     private CTimer _occupancyTimer = null!;
     private bool _isLatched;
 
-    internal OccupancyManager(XioCloudRoomSlot xioCloudRoom, Lab1 lab1)
+    internal OccupancyManager(XioCloudRoomSlot xioCloudRoom, ILab1 lab1)
     {
         _xioCloudRoom = xioCloudRoom;
         _lab1 = lab1;

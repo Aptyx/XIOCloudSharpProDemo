@@ -11,9 +11,7 @@ public class ControlSystem : CrestronControlSystem
 {
     private XioCloudRoomSlot? XioCloudRoom => ControllerXioCloudRoomSlotDevice;
 
-    private readonly Lab0 _lab0 = null!;
-    private readonly Lab1 _lab1 = null!;
-    private readonly Lab2 _lab2 = null!;
+    private readonly Contract _contract = null!;
     private readonly XpanelForHtml5 _xpanel = null!;
 
     private PowerManager _powerManager = null!;
@@ -26,14 +24,9 @@ public class ControlSystem : CrestronControlSystem
     {
         try
         {
-            var componentMediator = new ComponentMediator();
-            _lab0 = new Lab0(componentMediator, 1);
-            _lab1 = new Lab1(componentMediator, 2);
-            _lab2 = new Lab2(componentMediator, 3);
             _xpanel = new XpanelForHtml5(0x03, this);
-            _lab0.AddDevice(_xpanel);
-            _lab1.AddDevice(_xpanel);
-            _lab2.AddDevice(_xpanel);
+            _contract = new Contract();
+            _contract.AddDevice(_xpanel);
         }
         catch (Exception ex)
         {
@@ -52,15 +45,15 @@ public class ControlSystem : CrestronControlSystem
             }
 
             //Managers for Lab 0
-            _powerManager = new PowerManager(XioCloudRoom, _lab0);
-            _sourceManager = new SourceManager(XioCloudRoom, _lab0);
+            _powerManager = new PowerManager(XioCloudRoom, _contract.Lab0);
+            _sourceManager = new SourceManager(XioCloudRoom, _contract.Lab0);
             
             //Managers for Lab 1
-            _occupancyManager = new OccupancyManager(XioCloudRoom, _lab1);
-            _alertsManager = new AlertsManager(XioCloudRoom, _lab1);
+            _occupancyManager = new OccupancyManager(XioCloudRoom, _contract.Lab1);
+            _alertsManager = new AlertsManager(XioCloudRoom, _contract.Lab1);
             
             //Manager for Lab 2
-            _systemManager = new SystemManager(XioCloudRoom, _lab2);
+            _systemManager = new SystemManager(XioCloudRoom, _contract.Lab2);
 
             XioCloudRoom.OnlineStatusChange += OnXioCloudOnlineChange;
             XioCloudRoom.BaseEvent += OnXioCloudBaseEvent;
@@ -114,9 +107,9 @@ public class ControlSystem : CrestronControlSystem
                 break;
             case XioCloudRoomSlot.RoomNameEventId:
                 ErrorLog.Notice("XIO Events: Room Name received.");
-                _lab0.txtRoomName_Indirect(XioCloudRoom.RoomName.StringValue);
-                _lab1.txtRoomName_Indirect(XioCloudRoom.RoomName.StringValue);
-                _lab2.txtRoomName_Indirect(XioCloudRoom.RoomName.StringValue);
+                _contract.Lab0.txtRoomName_Indirect(XioCloudRoom.RoomName.StringValue);
+                _contract.Lab1.txtRoomName_Indirect(XioCloudRoom.RoomName.StringValue);
+                _contract.Lab2.txtRoomName_Indirect(XioCloudRoom.RoomName.StringValue);
                 break;
             default:
                 ErrorLog.Notice($"Unhandled XiO Cloud Event ID: {args.EventId}");

@@ -7,7 +7,7 @@ namespace AptyxXIOCloudSSharpDemo;
 internal class SystemManager
 {
     private readonly XioCloudRoomSlot _xioCloudRoom;
-    private readonly Lab2 _lab2;
+    private readonly ILab2 _lab2;
 
     private readonly Dictionary<int, bool> _checkStates = new Dictionary<int, bool>
     {
@@ -17,7 +17,7 @@ internal class SystemManager
         {4, false}
     };
 
-    internal SystemManager(XioCloudRoomSlot xioCloudRoom, Lab2 lab2)
+    internal SystemManager(XioCloudRoomSlot xioCloudRoom, ILab2 lab2)
     {
         _xioCloudRoom = xioCloudRoom;
         _lab2 = lab2;

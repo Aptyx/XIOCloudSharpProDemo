@@ -7,10 +7,10 @@ namespace AptyxXIOCloudSSharpDemo;
 internal class AlertsManager
 {
     private readonly XioCloudRoomSlot _xioCloudRoom;
-    private readonly Lab1 _lab1;
+    private readonly ILab1 _lab1;
     private string _pendingAlertMessage = string.Empty;
 
-    internal AlertsManager(XioCloudRoomSlot xioCloudRoom, Lab1 lab1)
+    internal AlertsManager(XioCloudRoomSlot xioCloudRoom, ILab1 lab1)
     {
         _xioCloudRoom = xioCloudRoom;
         _lab1 = lab1;

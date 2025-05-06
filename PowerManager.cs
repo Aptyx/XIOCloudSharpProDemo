@@ -7,12 +7,12 @@ namespace AptyxXIOCloudSSharpDemo;
 internal class PowerManager
 {
     private readonly XioCloudRoomSlot _xioCloudRoom;
-    private readonly Lab0 _lab0;
+    private readonly ILab0 _lab0;
 
     private bool SystemPowerOn { get; set; }
     private bool DisplayPowerOn { get; set; }
 
-    internal PowerManager(XioCloudRoomSlot xioCloudRoom, Lab0 lab0)
+    internal PowerManager(XioCloudRoomSlot xioCloudRoom, ILab0 lab0)
     {
         this._xioCloudRoom = xioCloudRoom;
         this._lab0 = lab0;

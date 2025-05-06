@@ -7,8 +7,8 @@ namespace AptyxXIOCloudSSharpDemo;
 internal class SourceManager
 {
     private readonly XioCloudRoomSlot _xioCloudRoom;
-    private readonly Lab0 _lab0;
-    internal SourceManager(XioCloudRoomSlot xioCloudRoom, Lab0 lab0)
+    private readonly ILab0 _lab0;
+    internal SourceManager(XioCloudRoomSlot xioCloudRoom, ILab0 lab0)
     {
         _xioCloudRoom = xioCloudRoom;
         _lab0 = lab0;

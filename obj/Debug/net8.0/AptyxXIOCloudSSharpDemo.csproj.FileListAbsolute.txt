@@ -40,3 +40,4 @@ C:\Users\AnthonyBatchelorApty\OneDrive - Aptyx\Crestron Masters\Masters 2025\Apt
 C:\Users\AnthonyBatchelorApty\OneDrive - Aptyx\Crestron Masters\Masters 2025\AptyxXIOCloudSSharpDemo\obj\Debug\net8.0\AptyxXIO.310CEBFF.Up2Date
 C:\Users\AnthonyBatchelorApty\OneDrive - Aptyx\Crestron Masters\Masters 2025\AptyxXIOCloudSSharpDemo\obj\Debug\net8.0\AptyxXIOCloudSSharpDemo.dll
 C:\Users\AnthonyBatchelorApty\OneDrive - Aptyx\Crestron Masters\Masters 2025\AptyxXIOCloudSSharpDemo\obj\Debug\net8.0\AptyxXIOCloudSSharpDemo.pdb
+C:\Users\AnthonyBatchelorApty\OneDrive - Aptyx\Crestron Masters\Masters 2025\AptyxXIOCloudSSharpDemo\obj\Debug\net8.0\AptyxXIOCloudSSharpDemo.sourcelink.json
