@@ -1,0 +1,191 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AptyxXIOCloudSSharpDemo/1.0.0": {
+        "dependencies": {
+          "Crestron.SimplSharp.SDK.Program": "2.21.90",
+          "JetBrains.Annotations": "2025.1.0-eap1"
+        },
+        "runtime": {
+          "AptyxXIOCloudSSharpDemo.dll": {}
+        }
+      },
+      "Crestron.SimplSharp.SDK.Library/2.21.90": {
+        "runtime": {
+          "lib/net6.0/SimplSharpAutoUpdateInterface.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/SimplSharpCWSHelperInterface.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          },
+          "lib/net6.0/SimplSharpCloudClientInterface.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/SimplSharpCryptographyInterface.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          },
+          "lib/net6.0/SimplSharpCustomAttributesInterface.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net6.0/SimplSharpHelperInterface.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/SimplSharpOnvifInterface.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/SimplSharpProgrammingInterfaces.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/SimplSharpSQLHelperInterface.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          },
+          "lib/net6.0/SimplSharpTimerEventInterface.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Crestron.SimplSharp.SDK.Program/2.21.90": {
+        "dependencies": {
+          "Crestron.SimplSharp.SDK.ProgramLibrary": "2.21.90"
+        }
+      },
+      "Crestron.SimplSharp.SDK.ProgramLibrary/2.21.90": {
+        "dependencies": {
+          "Crestron.SimplSharp.SDK.Library": "2.21.90"
+        },
+        "runtime": {
+          "lib/net6.0/Crestron.SimplSharpPro.AudioDistribution.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.CrestronConnected.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.DM.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.DeviceSupport.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.EthernetCommunications.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.Fusion.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.Gateways.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.GeneralIO.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.Keypads.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.Lighting.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.Media.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.Remotes.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.Shades.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.Thermostats.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.ThreeSeriesCards.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.UC.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/Crestron.SimplSharpPro.UI.dll": {
+            "assemblyVersion": "2.21.90.0",
+            "fileVersion": "2.21.90.0"
+          },
+          "lib/net6.0/SimplSharpPro.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
+      "JetBrains.Annotations/2025.1.0-eap1": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "4242.42.42.42",
+            "fileVersion": "2025.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AptyxXIOCloudSSharpDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crestron.SimplSharp.SDK.Library/2.21.90": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VBPCJvhsqLB7jsH37yfWjKDyoW7ZXdQ6zSduITfQjTRX9KDJqkqskh4o9OckbrgAJbaCMZ7DJiIYwsp36NVKDw==",
+      "path": "crestron.simplsharp.sdk.library/2.21.90",
+      "hashPath": "crestron.simplsharp.sdk.library.2.21.90.nupkg.sha512"
+    },
+    "Crestron.SimplSharp.SDK.Program/2.21.90": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-leWhZ4U8Fdbt9J4Xa7DjuovmXM7gGFbsAY7wsnz0PzNie3EeC3UKMFR88vrP2Njik8FhgtQYBqpZ/eOa3oZ7/g==",
+      "path": "crestron.simplsharp.sdk.program/2.21.90",
+      "hashPath": "crestron.simplsharp.sdk.program.2.21.90.nupkg.sha512"
+    },
+    "Crestron.SimplSharp.SDK.ProgramLibrary/2.21.90": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TNHX8qEJt1J6pmwdF8DilcWZEQG4cBsFndmYq4fVtGXXgL1uclF/nzCgVwPbrP8Hc42WvyN4eB43OoVpKbzSMg==",
+      "path": "crestron.simplsharp.sdk.programlibrary/2.21.90",
+      "hashPath": "crestron.simplsharp.sdk.programlibrary.2.21.90.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2025.1.0-eap1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5ApJk9xbFOdbz7L8W9LAA63DIMbqC1p81KOYLeLu+d3Pj9yC83aZBQgHce/LCCu9j/mzVZxEUl70rDoUEGs7Gg==",
+      "path": "jetbrains.annotations/2025.1.0-eap1",
+      "hashPath": "jetbrains.annotations.2025.1.0-eap1.nupkg.sha512"
+    }
+  }
+}

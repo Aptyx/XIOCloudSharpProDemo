@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "m9w4IAwBSoQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AnthonyBatchelorApty\\OneDrive - Aptyx\\Crestron Masters\\Masters 2025\\AptyxXIOCloudSSharpDemo\\AptyxXIOCloudSSharpDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AnthonyBatchelorApty\\.nuget\\packages\\crestron.simplsharp.sdk.library\\2.21.90\\crestron.simplsharp.sdk.library.2.21.90.nupkg.sha512",
+    "C:\\Users\\AnthonyBatchelorApty\\.nuget\\packages\\crestron.simplsharp.sdk.program\\2.21.90\\crestron.simplsharp.sdk.program.2.21.90.nupkg.sha512",
+    "C:\\Users\\AnthonyBatchelorApty\\.nuget\\packages\\crestron.simplsharp.sdk.programlibrary\\2.21.90\\crestron.simplsharp.sdk.programlibrary.2.21.90.nupkg.sha512",
+    "C:\\Users\\AnthonyBatchelorApty\\.nuget\\packages\\jetbrains.annotations\\2025.1.0-eap1\\jetbrains.annotations.2025.1.0-eap1.nupkg.sha512"
+  ],
+  "logs": []
+}
