@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AptyxXIOCloudSSharpDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9b18074ec0af3873a238e4643ce1bdcda6e50ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67b213b77718bb9d45799e46695ecd84abd784b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AptyxXIOCloudSSharpDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AptyxXIOCloudSSharpDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

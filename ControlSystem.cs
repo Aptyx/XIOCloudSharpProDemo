@@ -1,7 +1,6 @@
 ﻿using System;
 using Crestron.SimplSharp;
 using Crestron.SimplSharpPro;
-using Crestron.SimplSharpPro.GeneralIO;
 using Crestron.SimplSharpPro.UI;
 using MEP621_XPanel;
 
@@ -77,36 +76,36 @@ public class ControlSystem : CrestronControlSystem
         {
             case XioCloudRoomSlot.SystemPowerOnEventId:
                 _powerManager.SetSystemPower(true);
-                ErrorLog.Notice("XIO Events: System Power On.");
+                ErrorLog.Notice("XiO Events: System Power On.");
                 break;
             case XioCloudRoomSlot.SystemPowerOffEventId:
                 _powerManager.SetSystemPower(false);
-                ErrorLog.Notice("XIO Events: System Power Off.");
+                ErrorLog.Notice("XiO Events: System Power Off.");
                 break;
             case XioCloudRoomSlot.DisplayPowerOnEventId:
                 _powerManager.SetDisplayPower(true);
-                ErrorLog.Notice("XIO Events: Display Power On.");
+                ErrorLog.Notice("XiO Events: Display Power On.");
                 break;
             case XioCloudRoomSlot.DisplayPowerOffEventId:
                 _powerManager.SetDisplayPower(false);
-                ErrorLog.Notice("XIO Events: Display Power Off.");
+                ErrorLog.Notice("XiO Events: Display Power Off.");
                 break;
             case XioCloudRoomSlot.OccupiedEventId:
-                ErrorLog.Notice("XIO Events: Room Occupied.");
+                ErrorLog.Notice("XiO Events: Room Occupied.");
                 break;
             case XioCloudRoomSlot.VacantEventId:
-                ErrorLog.Notice("XIO Events: Room Vacant.");
+                ErrorLog.Notice("XiO Events: Room Vacant.");
                 break;
             case XioCloudRoomSlot.SystemCheckEventId:
-                ErrorLog.Notice("XIO Events: System Check received.");
+                ErrorLog.Notice("XiO Events: System Check received.");
                 _systemManager.RunSystemCheck();
                 break;
             case XioCloudRoomSlot.MaintenanceModeEventId:
-                ErrorLog.Notice("XIO Events: Maintenance Mode received.");
+                ErrorLog.Notice("XiO Events: Maintenance Mode received.");
                 _systemManager.MaintenanceMode(XioCloudRoom.MaintenanceMode.BoolValue);
                 break;
             case XioCloudRoomSlot.RoomNameEventId:
-                ErrorLog.Notice("XIO Events: Room Name received.");
+                ErrorLog.Notice("XiO Events: Room Name received.");
                 _contract.Lab0.txtRoomName_Indirect(XioCloudRoom.RoomName.StringValue);
                 _contract.Lab1.txtRoomName_Indirect(XioCloudRoom.RoomName.StringValue);
                 _contract.Lab2.txtRoomName_Indirect(XioCloudRoom.RoomName.StringValue);
